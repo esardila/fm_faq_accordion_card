@@ -1,2 +1,1 @@
-# fm_faq_accordion_card
-Frontend Mentor Challenge (Newbie): FAQ accordion card
+Solution URL: [Solution URL](https://github.com/esardila/fm_faq_accordion_card)
