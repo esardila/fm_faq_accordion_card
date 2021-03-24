@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile version](./Mobile Screenshot.png)
-![Desktop version](./Desktop Screenshot.png)
+![Mobile version](https://esardila.github.io/fm_faq_accordion_card/Mobile%20Screenshot.png)
+![Desktop version](https://esardila.github.io/fm_faq_accordion_card/Desktop%20Screenshot.png)
 
 ### Links
 
