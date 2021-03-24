@@ -93,6 +93,8 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .accordion-item {
@@ -104,6 +106,11 @@ body {
 
 .accordion-item:target .accordion-link {
   font-weight: 700;
+}
+
+.accordion-item:target .accordion-link img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .accordion-item:target .answer {
