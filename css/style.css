@@ -16,11 +16,11 @@ body {
   display: -ms-grid;
   display: grid;
   font-family: 'Kumbh Sans', sans-serif;
-  height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
+  min-height: 100vh;
   padding: 0;
   width: 100vw;
 }
@@ -126,6 +126,7 @@ body {
   transition: all 0.2s linear;
 }
 
+/* DESKTOP VERSION */
 @media (min-width: 63.125rem) {
   .card {
     background-position: right 43.5rem bottom -13rem;
@@ -156,14 +157,18 @@ body {
   }
 }
 
-@media (max-width: 63.125rem) {
+/* MOBILE VERSION */
+@media (max-width: 57.5rem) {
   .card {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     background-position: top -11em center;
     background-size: 20rem auto;
+    height: 44rem;
+    margin-top: 12rem;
     padding-bottom: 2rem;
+    width: 372px;
   }
   .box {
     display: none;
@@ -186,18 +191,33 @@ body {
   }
 }
 
-/* Attribution */
+/* MEDIUM SIZE SCREEN */
+/* @media(max-width:63.125rem) and (min-width: 57.5rem) {
+
+    .mobile {
+        display: block;
+        position: absolute;
+        height: auto;
+        top: -75%;
+        -webkit-transform: translateX(50%);
+        transform: translateX(-55%);
+        width: 22.5rem;
+    }
+
+    .faqs {
+        padding: 0;
+        width: 80%;
+    }
+} */
+/* ATTRIBUTION */
 .attribution {
-  background: white;
-  bottom: 0;
-  font-size: 11px;
-  height: 2em;
-  line-height: 2em;
-  position: absolute;
+  font-size: 12px;
+  line-height: 1rem;
+  margin: 3rem 0 1rem;
   text-align: center;
-  width: 100%;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: white;
+  text-decoration: none;
 }
